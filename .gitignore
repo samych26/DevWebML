@@ -1,0 +1,27 @@
+# RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj.user
+
+# renv : on versionne renv.lock, pas les packages installés
+renv/library/
+renv/local/
+renv/cellar/
+renv/lock/
+renv/python/
+renv/sandbox/
+renv/staging/
+
+# Déploiement shinyapps.io
+rsconnect/
+
+# Fichiers temporaires
+*.tmp
+*.log
+.Rcheck/
+
+# Système
+.DS_Store
+Thumbs.db
